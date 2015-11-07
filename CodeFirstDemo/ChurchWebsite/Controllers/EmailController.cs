@@ -15,11 +15,12 @@ namespace ChurchWebsite.Controllers
         private ChurchEntityPrimary db = new ChurchEntityPrimary();
 
 
-        public ViewResult Index()
+        public ActionResult Index()
         {
             return View();
         }
 
+        
 
 
         public ActionResult Create()
