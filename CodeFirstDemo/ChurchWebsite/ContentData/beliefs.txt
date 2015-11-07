@@ -1,0 +1,42 @@
+   <div class ="container" style:"background-image:url('../../Images1/leafs.jpg')">
+   <div class="row">
+        <div class ="col-md-6">
+    <b>About the Value of Bible</b>
+    <p>        
+It is our basis of our belief. It is uniquely God-inspired, 
+without error, and is our final authority on all matters of faith and conduct. (2 Timothy 3:16, Romans 12:2)
+    </p>
+    <b>About the nature of God</b>
+    <p>We believe there is one God, eternally existent in three persons: Father, Son, and Holy Spirit. (Matthew 3:16, 17, Matthew 28:18, 19) God is our creator (Genesis 1). God is perfect love.
+       He desires for each of us is to experience an ongoing personal relationship with Him</p>
+    <b>About the person and work of HolySpirit</b>
+    <p>
+        The Holy Spirit indwells and enables the Christian to live a Godly 
+        life (John 14:16, John 15:26, Galatians 5:22-25, Philippians 1:16, Philippians 2:13).
+    </p>
+        
+    <b>About the value of Humanity</b>
+    <p>God created us in his image, with a mind, will emotions and a sense of morality. 
+        All human life has value. To fulfill God's purpose for us, we each need to experience 
+        forgiveness of sin by faith in Jesus Christ, and live out our new life in Christ and
+         participation in healthy community in the church. (Romans 3:23; 6:23 Romans 12:1-2, Hebrews 10:24-25).</p>
+		     </div>
+         <div class ="col-md-6">
+    <b>About the Identity of Jesus</b>
+    <p>We believe in the deity of our Lord Jesus Christ (Colossians 2:9), 
+      in His virgin birth as fully human (Matthew 1:18-23), in His sinless life (2 Corinthians 5:21).</p>
+    <b>About our need for salvation, and God's provision of it</b>
+    <p>God created us to have an intimate relationship with Him. We all by nature sin, 
+        violating or falling short of God's law, and going our own way, (Romans 3:23 Isaiah 53:6)
+         Because of His love, God sent his Son, Jesus to die on the cross to pay the penalty of our sin, 
+        and reconcile us with God (John 3:16, Romans 5:6-10) We must individually receive God's gift of 
+        forgiveness and reconciliation by faith in Christ. (John 3:16, Ephesians 2:8-9)</p>
+    <b>About the Church</b>
+    <p>We recognize and embrace the Church as the body of Christ (1 Corinthians 12:12-18).
+         The Church was established by Christ (Matthew 16:18) and He is the Head of the Church (Ephesians 1:22). 
+        Those who place their faith in Jesus Christ for their salvation and trust Him as
+         Lord are members of His church. (Matthew 16:16, Romans 10:9-10). As an outward expression
+         of that faith and commitment we follow God's command to practice believer's baptism. (Matthew 28:19).</p>
+        </div>
+        </div>
+		</div>

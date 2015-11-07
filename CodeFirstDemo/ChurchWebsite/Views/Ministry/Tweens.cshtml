@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Tweens";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tweens</h2>
+@foreach (var p in ViewBag.Tweens)
+{
+    @Html.Raw(p)
+}

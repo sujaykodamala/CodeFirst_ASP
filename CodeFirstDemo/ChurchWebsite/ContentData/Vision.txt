@@ -1,0 +1,20 @@
+<div class="container">
+<button type="button"  >Vision</button>
+<i style="background-color:red">"For the vision is yet for an appointed time…" Habakkuk 2:3</i> 
+ Vision Statement: 
+We as a local church exist to be a healthy reproducing church, being transformed into Christ, through His love, His word, to reach and serve His people, living in the bay area and beyond, by the power of Holy Spirit, for the glory of God.
+Vision Details (break down): 
+
+We, as a local church exist to be
+<ol>
+    <li>A healthy (Eph 4:16)</li>
+     <li>reproducing Church(Acts 13:2)</li>
+     <li>being transformed (Rom 8:29-30 & 12:2)</li>
+     <li>into Christ (Eph 4:15)</li>
+     <li>through His love (II Cor 5:14)</li>
+     <li>to reach (II Cor 5:20)</li>
+     <li>and serve HIS people (Gal 5:13)</li>
+    <li>living in the bay area and beyond, by the power of Holy Spirit (Acts 1:8)</li>
+    <li>for the Glory of GOD (I Cor 10:31, II Cor 3:18)</li>
+</ol>
+</div>

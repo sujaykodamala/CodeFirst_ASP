@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ChurchWebsite.Models.Leader>
+
+@{
+    ViewBag.Title = "MinistryLeaders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .img-circle {
+        border-radius: 50%;
+    }
+</style>
+
+<h2>MinistryLeaders</h2>
+
+
+<table>
+@foreach (var item in Model) {
+    <tr>
+       
+       <td>
+        <img src="data:image/png;base64,@Convert.ToBase64String(item.Picture,0,item.Picture.Length)" width="200" height="200" class="img-circle" />
+         <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Position)
+        </td>
+      
+    </tr>
+}
+
+</table>

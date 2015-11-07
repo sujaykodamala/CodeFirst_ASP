@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "WhatToExpect";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>WhatToExpect</h2>
+@foreach(var i in ViewBag.File)
+   {
+       <p>@Html.Raw(i)</p>
+   }

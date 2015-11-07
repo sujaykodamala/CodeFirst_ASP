@@ -1,0 +1,39 @@
+﻿@model List<ChurchWebsite.Models.Leader>
+
+@{
+    ViewBag.Title = "Leadership";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .img-circle {
+        border-radius: 50%;
+    }
+</style>
+
+
+<h2>Leadership</h2>
+<div class ="container">
+   <table>
+@foreach (var item in Model)
+{  
+    <tr>    
+        <td>
+            <img src="data:image/png;base64,@Convert.ToBase64String(item.Picture,0,item.Picture.Length)" width="200" height="200" class="img-circle" />               
+        </td> 
+    </tr>
+ 
+    <tr> 
+        <td>
+            <b>@item.Name</b>
+        </td> 
+    </tr> 
+    
+    <tr>  
+        <td>                
+            <b>@item.Position</b>
+        </td> 
+    </tr>
+ }
+        </table>
+    </div>
+

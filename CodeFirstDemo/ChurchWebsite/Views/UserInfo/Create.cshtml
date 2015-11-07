@@ -1,0 +1,65 @@
+﻿@model ChurchWebsite.Models.UserInfo
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>UserInfo</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Pass)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Pass)
+            @Html.ValidationMessageFor(model => model.Pass)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Confirm)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Confirm)
+            @Html.ValidationMessageFor(model => model.Confirm)
+        </div>
+        <div>
+            @Html.LabelFor(model=>model.Role)
+        </div>
+        <div>
+            @Html.EditorFor(model => model.Role);
+            @Html.ValidationMessageFor(model => model.Role);
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
